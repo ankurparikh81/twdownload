@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twdownload"
+version = "1.0.0"
+description = "A CLI tool to download media from X (Twitter) with resolution selection"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "twdownload team" }
+]
+keywords = ["twitter", "x", "media", "downloader", "video", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.scripts]
+twdownload = "twdownload.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["twdownload*"]
