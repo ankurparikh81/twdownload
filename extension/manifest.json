@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "twdownload - X/Twitter Media Downloader",
+  "version": "1.0.0",
+  "description": "Download video, GIF, and photo media from X (Twitter) with resolution selection directly from your toolbar.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "twdownload - Download Media",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.x.com/*",
+    "https://*.twitter.com/*",
+    "https://api.fxtwitter.com/*",
+    "https://cdn.syndication.twimg.com/*",
+    "https://video.twimg.com/*",
+    "https://pbs.twimg.com/*"
+  ]
+}

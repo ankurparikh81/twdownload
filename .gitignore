@@ -8,3 +8,8 @@ build/
 dist/
 .DS_Store
 *.part
+*.mp4
+*.jpg
+*.jpeg
+*.png
+!extension/icons/*.png

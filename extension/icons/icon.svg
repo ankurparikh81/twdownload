@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect x="8" y="8" width="112" height="112" rx="30" fill="#0f1419" stroke="#1d9bf0" stroke-width="6"/>
+  <!-- Stem -->
+  <rect x="56" y="32" width="16" height="38" rx="4" fill="#ffffff"/>
+  <!-- Head -->
+  <polygon points="64,88 38,62 90,62" fill="#1d9bf0"/>
+  <!-- Tray -->
+  <rect x="36" y="98" width="56" height="10" rx="5" fill="#ffffff"/>
+</svg>

@@ -8,12 +8,28 @@ When a video contains multiple resolutions, `twdownload` displays a numbered sel
 
 ## Features
 
-- **Multi-Resolution Video Selection:** Displays a clean numbered terminal menu showing resolution (`1280x720`, `640x360`, `480x270`), standard tag (`720p`, `360p`), approximate bitrate, and file size.
+- **Chrome Toolbar Extension:** Click the toolbar icon while browsing X to immediately view resolution options and download with 1 click.
+- **Multi-Resolution Video Selection:** Displays a clean numbered terminal menu (CLI) or interactive card menu (Chrome Extension) showing resolution (`1280x720`, `640x360`, `480x270`), standard tag (`720p`, `360p`), approximate bitrate, and file size.
 - **Dual-Engine Media Extractor:** Uses FixTweet API with automatic fallback to Twitter Syndication API. Requires **no API keys, tokens, or browser cookies**.
-- **Real-Time Progress Bar:** Displays streaming download progress with percentage, downloaded/total size, transfer speed, and ETA.
+- **Real-Time Progress:** Shows streaming download progress in terminal or browser download manager.
 - **Photos & GIFs Support:** Automatically downloads full-resolution (`orig`) photos and looping GIFs.
-- **Zero External Dependencies Required:** Works out of the box using standard Python 3.8+ libraries (`urllib`, `argparse`, `json`). Also supports `requests`.
-- **Scriptable & Pipe-Friendly:** Non-interactive shortcuts (`--best`, `--worst`, `-r 720p`) and graceful handling of piped inputs.
+- **Zero External Dependencies Required:** Works out of the box using standard Python 3.8+ libraries or modern web standards.
+
+---
+
+## Chrome Extension Setup
+
+Load the extension into Google Chrome in 15 seconds:
+
+1. Open Chrome and go to `chrome://extensions/`
+2. Enable **Developer mode** (toggle in the top-right corner).
+3. Click **Load unpacked** (top-left).
+4. Choose the `extension/` directory from this repository:
+   ```
+   /Users/ankur/src/twdownload/extension
+   ```
+5. Pin the `twdownload` icon to your Chrome toolbar.
+6. Whenever you view a tweet on X / Twitter, simply click the toolbar icon, choose your resolution, and click **Download**!
 
 ---
 
