@@ -25,11 +25,7 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://*.x.com/*",
-    "https://*.twitter.com/*",
     "https://api.fxtwitter.com/*",
-    "https://cdn.syndication.twimg.com/*",
-    "https://video.twimg.com/*",
-    "https://pbs.twimg.com/*"
+    "https://cdn.syndication.twimg.com/*"
   ]
 }
